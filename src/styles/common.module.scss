@@ -1,1 +1,15 @@
 // TODO
+.info {
+    display: inline-block;
+    align-items: center;
+
+    span {
+        margin-left: 0.5rem;
+        font-size: 0.875rem;
+        color: var(--gray-200);
+    }
+
+    & + .info {
+        margin-left: 1.5rem;
+    }
+}

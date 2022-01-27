@@ -1,1 +1,42 @@
 // TODO
+
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 2rem;
+
+  button {
+    margin-top: 4rem;
+    border: 0;
+    background: transparent;
+    color: var(--pink-500);
+    font-size: 1.125rem;
+    font-weight: 600;
+  }
+}
+
+.content {
+
+  &+.content {
+    margin-top: 3rem;
+  }
+
+  p {
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+  }
+
+  h1 {
+    font-weight: bold;
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+
+    transition: color 0.2s;
+
+    &:hover {
+      color: var(--pink-500);
+    }
+  }
+
+  
+}
